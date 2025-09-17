@@ -1,0 +1,22 @@
+.AboutUsHero-container {
+    padding: 128px 0px;
+
+    .AboutUsHero {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        gap: unset;
+
+        .text {
+            width: 45%;
+
+        }
+        .image{
+            width: 45%;
+            align-items: start;
+            justify-content: end;
+            img{
+                width: 80%;
+            }
+        }
+    }
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link
+      rel="shortcut icon"
+      href="./public/images/icon/favicon.png"
+      type="image/x-icon"
+    />
+    <link href="./tailwind/tailwind.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+  <body>
+    <div id="app" class="flex flex-col gap-[128px]">
+    <!-- startnavbar -->
+
+    <header>
+      <div class="menuContainer">
+        <div class="logo">
+          <img src="./public/images/icon/Logo.png" alt="image" />
+        </div>
+        <label for="show">
+          <div class="line-list"></div>
+          <div class="line-list"></div>
+          <div class="line-list"></div>
+        </label>
+        <input type="radio" name="menu" id="show" />
+        <input type="radio" name="menu" id="close" />
+        <div class="menu">
+          <label for="close">&times;</label>
+          <nav>
+            <div class="navbar">
+              <ul>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./AboutUs.html">About us</a>
+                </li>
+                <li>
+                  <a href="#">Features</a>
+                </li>
+                <li>
+                  <a href="./pricing.html">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#" class="active">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <button>Contact us</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- endnavbar -->
+    <!-- Featured-Blog -->
+
+    <div
+      class="Featured-Blog-container w-full flex items-center justify-center my-[128px] box-border"
+    >
+      <div
+        class="Featured-Blog w-[85%] flex flex-col justify-center items-center gap-[16px]"
+      >
+        <div
+          class="title w-[70%] font-[Poppins] font-[600] text-[48px] leading-[64px] tracking-[0] text-center"
+        >
+          A UX Case Study on Creating a Studious Environment for Students
+        </div>
+        <span
+          class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-center text-[#282938]"
+          >Andrew Jonson Posted on 27th January 2021</span
+        >
+        <img
+          src="./public/images/blog/Featured Blog/featured.jpg"
+          alt="image"
+          class="w-full max-h-[477px] object-cover mt-[16px]"
+        />
+        <p
+          class="font-poppins w-[55%] mt-[32px] font-[400] text-[16px] leading-[28px] tracking-[0] text-center text-[#282938] opacity-[70%] mt-[32px]"
+        >
+          Apparently we had reached a great height in the atmosphere, for the
+          sky was a dead black, and the stars had ceased to twinkle. By the same
+          illusion which lifts the horizon of the sea to the level of the
+          spectator on a hillside.
+        </p>
+        <a
+          href="#"
+          class="font-[400] text-[16px] leading-[28px] tracking-[0] text-center text-[#2405F2] cursor-pointer"
+          >Read more</a
+        >
+      </div>
+    </div>
+
+    <!-- Featured-Blog -->
+    <!-- our-Blog -->
+
+    <div
+      class="our-blog-container w-full flex items-center justify-center pb-[128px]"
+    >
+      <div
+        class="our-blog w-[85%] flex flex-col justify-center items-center gap-[48px]"
+      >
+        <div
+          class="title font-[Poppins] font-[600] text-[48px] leading-[64px] tracking-[0] text-center"
+        >
+          Our Blog
+        </div>
+        <div
+          class="cards-blog w-full flex flex-row flex-wrap gap-x-[32px] gap-y-[64px]"
+        >
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 1.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 2.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 3.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 4.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 5.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="items w-[80%] flex flex-col gap-[16px] md:w-[30%]">
+            <img
+              src="./public/images/blog/blog card/blog card 6.png"
+              alt="image"
+            />
+            <div
+              class="date font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%] mt-[16px]"
+            >
+              27 Jan 2021
+            </div>
+            <h1
+              class="font-poppins font-[400] text-[24px] leading-[36px] tracking-[0] text-[#282938]"
+            >
+              How one Webflow user grew his single person consultancy from
+              $0-100K in 14 months
+            </h1>
+            <p
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] opacity-[70%]"
+            >
+              See how pivoting to Webflow changed one person’s sales strategy
+              and allowed him to attract
+            </p>
+            <a
+              href="#"
+              class="font-poppins font-[500] text-[16px] leading-[28px] tracking-[0] text-[#282938] flex flex-row cursor-pointer items-center gap-[12px] mt-[24px]"
+            >
+              Read More
+              <svg
+                width="25"
+                height="12"
+                viewBox="0 0 25 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                  fill="#282938"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our-Blog -->
+           <!-- start footer -->
+
+      <footer>
+        <div class="footerContainer">
+          <div class="top">
+            <div class="left">
+              <div class="icon">
+                <img src="./public/images/icon/Logo.png" alt="Finsweet" />
+                <p>
+                  We are always open to discuss your project and improve your
+                  online presence.
+                </p>
+              </div>
+              <div class="contact-info">
+                <div class="contant-items">
+                  <div class="info">
+                    <h1>Email me at</h1>
+                    <p>contact@website.com</p>
+                  </div>
+                  <div class="info">
+                    <h1>Call us</h1>
+                    <p>0927 6277 28525</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h1>Lets Talk!</h1>
+              <p>
+                We are always open to discuss your project, improve your online
+                presence and help with your UX/UI design challenges.
+              </p>
+              <div class="social">
+                <img src="./public/images/social/facebook.png" alt="social" />
+                <img src="./public/images/social/twitter.png" alt="social" />
+                <img src="./public/images/social/insta.png" alt="social" />
+                <img src="./public/images/social/linkedin.png" alt="social" />
+              </div>
+            </div>
+          </div>
+          <div class="bottom-footer-container">
+            <div class="bottom-footer">
+              <div class="right-BF">Copyright 2022, Finsweet.com</div>
+              <div class="link-BF">
+                <a href="./index.html">Home </a> 
+                <a href="./AboutUs.html">About us</a>
+                <a href="#">Features</a>
+                <a href="./pricing.html">Pricing </a> 
+                <a href="#">FAQ </a>
+                <a href="#">Blog </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end footer -->
+       </div>
+  </body>
+</html>

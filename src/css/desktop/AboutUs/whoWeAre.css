@@ -1,0 +1,14 @@
+.whoWeAre-container {
+
+    .whoWeAre {
+
+        .text {
+            flex-flow: row nowrap;
+
+            .part {
+                width: 50%;
+
+            }
+        }
+    }
+}

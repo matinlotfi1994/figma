@@ -1,0 +1,116 @@
+.ourTeam-container {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #F4F6FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ourTeam {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column nowrap;
+        gap: 48px;
+
+        .title {
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 48px;
+            leading-trim: NONE;
+            line-height: 64px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #282938;
+        }
+
+        .team {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 32px;
+            align-items: center;
+            justify-content: center;
+
+            .profile {
+                width: fit-content;
+                padding: 48px 64px;
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 2px;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+
+                .image {
+                    width: 168px;
+                    height: 168px;
+                    position: relative;
+                    overflow: hidden;
+
+
+                    img {
+                        width: 168px;
+                        height: 168px;
+                        border-radius: 50%;
+
+                    }
+
+                    .cover {
+                        width: 168px;
+                        height: 168px;
+                        position: absolute;
+                        background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: end;
+                        justify-content: center;
+                        gap: 11.5px;
+                        border-radius: 50%;
+                        transition: 500ms;
+                        top: 0;
+                        opacity: 0;
+
+                        img {
+                            width: 13px;
+                            height: 13px;
+                            margin-bottom: 28px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &:hover {
+                        .cover {
+                            opacity: 80%;
+                        }
+                    }
+                }
+
+                .name {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 24px;
+                    leading-trim: NONE;
+                    line-height: 36px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #1D2130;
+                    margin-top: 28px;
+                }
+
+                span {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    opacity: 70%;
+                    color: #1D2130;
+                }
+
+            }
+        }
+    }
+}

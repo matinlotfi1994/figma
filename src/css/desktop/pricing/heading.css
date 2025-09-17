@@ -1,0 +1,13 @@
+.heading-container {
+    padding-top: 128px;
+
+    .heading {
+
+        .heading-cards {
+            flex-flow: row nowrap;
+            .pricing-cards-item{
+                width: 33.333333%;
+            }
+        }
+    }
+}

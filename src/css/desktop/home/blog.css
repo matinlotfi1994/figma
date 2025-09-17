@@ -1,0 +1,19 @@
+.blog-Container {
+    padding: 128px 0px;
+
+    .blog {
+
+        .blog-card {
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 32px;
+
+            .card-items {
+                width: 33%;
+                align-items: anset;
+                justify-content: unset;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.Home-hero-Container {
+    padding: 128px 0px;
+
+    .Home-hero {
+        width: 85%;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        .text-Home-hero {
+        width: 50%;
+        align-items: start;
+        gap: 48px;
+
+            .top-text {
+                width: 80%;
+                gap: 24px;
+                text-align: unset;
+
+            }
+
+            .bottom-text {
+                align-items: center;
+                justify-content: start;
+                gap: 40px;
+
+            }
+        }
+
+        .image-Home-hero {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            img {
+                width: 90%;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.features-container {
+    padding: 128px 0px;
+
+    .features {
+        width: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 47px;
+        align-items: center;
+        justify-content: center;
+
+        .features-text {
+            width: 45%;
+            gap: 12PX;
+        }
+
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+
+            .card {
+                padding: 48px 33px 48px 48px;
+
+                .icon {
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    }
+}

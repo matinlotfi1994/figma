@@ -1,0 +1,15 @@
+.process-container {
+    padding: 128px 0px;
+
+    .process {
+
+        .cards {
+            flex-flow: row nowrap;
+            gap: 32px;
+
+            .card-item {
+                width: 25%;
+            }
+        }
+    }
+}

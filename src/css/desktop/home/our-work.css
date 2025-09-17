@@ -1,0 +1,43 @@
+.our-work-container {
+    padding: 128px 0px;
+
+    .our-work {
+        gap: 64px;
+
+        .bottom-ourWork {
+            flex-flow: row nowrap;
+            gap: 32px;
+
+            .left {
+                width: 66%;
+
+                .image-left {
+
+                    .cover {
+                        width: 45%;
+                        padding: 76px 48px;
+                    }
+                }
+            }
+
+            .right {
+                width: 34%;
+                flex-flow: column nowrap;
+                justify-content: space-between;
+                gap: unset;
+
+                .image-card2 {
+                    width: 100%;
+
+                    .cover {
+                        padding:45px 56px;
+                    }
+                }
+
+                .image-card3 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

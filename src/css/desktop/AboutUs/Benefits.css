@@ -1,0 +1,14 @@
+.Benefits-container {
+    padding: 128px 0px;
+
+    .Benefits {
+
+        .title {
+            width: 50%;
+        }
+
+        .cards {
+            flex-flow: row nowrap;
+        }
+    }
+}

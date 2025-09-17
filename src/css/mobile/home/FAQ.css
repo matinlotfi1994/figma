@@ -1,0 +1,112 @@
+.FAQ-container {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .FAQ {
+        width: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        gap: 50px;
+
+        .left {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 16px;
+
+            h1 {
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 56px;
+                color: #282938;
+            }
+
+            a {
+                all: unset;
+                font-family: Poppins;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                color: #2405F2;
+                opacity: 87%;
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 32px;
+
+            .line-FAQ {
+                width: 100%;
+                border-bottom: solid 2px #ECECF1;
+                box-sizing: border-box;
+            }
+
+            .item {
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                gap: 59px;
+
+                .number {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #2405F2;
+
+                }
+
+                .text {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .guestion {
+                        width: 85%;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        gap: 16px;
+
+                        h3 {
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: #282938;
+                        }
+
+                        p {
+                            width: 87%;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 32px;
+                            color: #282938;
+                            opacity: 87%;
+                            margin-bottom: 16px;
+                        }
+                    }
+
+                    .icon {
+                        width: 15%;
+                        text-align: end;
+                    }
+                }
+            }
+
+        }
+    }
+}

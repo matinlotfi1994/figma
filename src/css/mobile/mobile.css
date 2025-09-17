@@ -1,0 +1,20 @@
+@import "./header.css";
+@import "./home/Home-hero.css";
+@import "./home/How-work.css";
+@import "./home/our-work.css";
+@import "./home/Features.css";
+@import "./home/testimonials.css";
+@import "./home/FAQ.css";
+@import "./home/contactForm.css";
+@import "./home/blog.css";
+@import "./footer.css";
+@import "./AboutUs/AboutUsHero.css";
+@import "./AboutUs/whoWeAre.css";
+@import "./AboutUs/process.css";
+@import "./AboutUs/missionAndVision.css";
+@import "./AboutUs/Benefits.css";
+@import "./AboutUs/ourTeam.css";
+@import "./pricing/heading.css";
+
+
+

@@ -1,0 +1,35 @@
+header {
+    .menuContainer {
+        width: 85%;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: unset;
+
+        label[for="show"] {
+            display: none;
+        }
+
+        .menu {
+            width: 85%;
+            flex-flow: unset;
+            justify-content: end;
+            position: unset;
+            top: unset;
+            nav {
+                height: 100%;
+                flex-flow: row nowrap;
+                justify-content: end;
+                gap: 48px;
+
+                .navbar {
+                    ul {
+                        flex-flow: row nowrap;
+                    }
+                }
+            }
+            label[for="close"] {
+                display: none;
+            }
+        }
+    }
+}

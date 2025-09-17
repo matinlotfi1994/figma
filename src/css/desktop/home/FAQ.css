@@ -1,0 +1,17 @@
+.FAQ-container {
+    padding: 128px 0px;
+
+    .FAQ {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        gap: unset;
+
+        .left {
+            width: 25%;
+        }
+
+        .right {
+            width: 65%;
+        }
+    }
+}

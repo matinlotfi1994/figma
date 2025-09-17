@@ -1,0 +1,21 @@
+.missionAndVision-container {
+    padding: 128px 0px;
+
+    .missionAndVision {
+
+        .vision-mission-part {
+            flex-flow: row nowrap;
+            gap: unset;
+
+            .image-vision {
+                width: 40%;
+
+            }
+
+            .text-vision {
+                width: 50%;
+            }
+        }
+    }
+
+}

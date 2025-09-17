@@ -1,0 +1,179 @@
+footer {
+    width: 100%;
+    background-color: #1C1E53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 104px;
+
+    .footerContainer {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+
+        .top {
+            width: 85%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 80px;
+
+            .left {
+                width: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 86px;
+
+                .icon {
+                    width: 85%;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    gap: 24px;
+
+                    img {
+                        width: 30%;
+                    }
+
+                    p {
+                        width: 87%;
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: white;
+                        opacity: 80%;
+                    }
+                }
+
+                .contact-info {
+                    width: 100%;
+                    background-color: #FCD980;
+                    box-sizing: border-box;
+                    padding: 17px 0px;
+
+                    .contant-items {
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        gap: 29px;
+                        justify-content: space-evenly;
+
+                        .info {
+                            h1 {
+                                font-family: Poppins;
+                                font-weight: 500;
+                                font-size: 18px;
+                                leading-trim: NONE;
+                                line-height: 32px;
+                                letter-spacing: 0%;
+                                color: #282938;
+                            }
+
+                            p {
+                                font-family: Poppins;
+                                font-weight: 400;
+                                font-size: 16px;
+                                leading-trim: NONE;
+                                line-height: 28px;
+                                letter-spacing: 0%;
+                                opacity: 80%;
+                                color: #282938;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                width: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                gap: 14px;
+
+                h1 {
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-size: 48px;
+                    leading-trim: NONE;
+                    line-height: 64px;
+                    letter-spacing: 0%;
+                    color: white;
+                }
+
+                p {
+                    width: 80%;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    opacity: 80%;
+                    color: #F4F6FC;
+                }
+
+                .social {
+                    margin-top: 14px;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    gap: 26.67px;
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+        .bottom-footer-container {
+            width: 100%;
+            background-color: white;
+            padding: 32px 0px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .bottom-footer {
+                width: 85%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: space-between;
+                gap: 30px;
+
+                .right-BF {
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    color: #282938;
+                }
+
+                .link-BF {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    gap: 20px;
+
+                    a {
+                        all: unset;
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: #282938;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+footer {
+
+    .footerContainer {
+        gap: unset;
+
+        .top {
+            flex-flow: row nowrap;
+            gap: 104px;
+
+            .left {
+                width: 45%;
+
+                .contact-info {
+                    padding: 17px 0px 17px 37px;
+
+                    .contant-items {
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        gap: 29px;
+                        justify-content: unset;
+
+                    }
+                }
+            }
+
+            .right {
+                width: 40%;
+
+            }
+        }
+
+        .bottom-footer-container {
+
+            .bottom-footer {
+                flex-flow: row nowrap;
+                gap: unset;
+
+                .link-BF {
+                    gap: 32px;
+                }
+            }
+        }
+    }
+}

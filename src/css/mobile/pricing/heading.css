@@ -1,0 +1,209 @@
+.heading-container {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .heading {
+        width: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 64px;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            text-align: center;
+            width: 42%;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            text-align: justify;
+
+            h1 {
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 48px;
+                leading-trim: NONE;
+                line-height: 64px;
+                letter-spacing: 0%;
+                color: #282938;
+            }
+
+            p {
+                font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                leading-trim: NONE;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #282938;
+                opacity: 70%;
+            }
+        }
+
+        .heading-cards {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 32px;
+            align-items: center;
+            justify-content: center;
+
+            .pricing-cards-item {
+                width: 80%;
+                height: 745px;
+                display: flex;
+                flex-flow: column nowrap;
+                padding: 62px 48px;
+                box-sizing: border-box;
+                background-color: #F4F6FC;
+                justify-content: space-between;
+                border-radius: 12px;
+
+                .price {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    gap: 8px;
+                    align-items: center;
+
+                    span {
+                        font-family: Poppins;
+                        font-weight: 600;
+                        font-size: 38px;
+                        leading-trim: NONE;
+                        line-height: 56px;
+                        letter-spacing: 0%;
+                        color: #282938;
+                    }
+
+                    span.Multi {
+                        color: white;
+                    }
+
+                    h6 {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: #2405F2;
+                    }
+
+                    h6.Multi {
+                        color: #FCD980;
+                    }
+                }
+
+                .starter {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    gap: 8px;
+
+                    h1 {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 24px;
+                        leading-trim: NONE;
+                        line-height: 36px;
+                        letter-spacing: 0%;
+                        color: #282938;
+                    }
+
+                    h1.Multi {
+                        color: white;
+                    }
+
+                    p {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        color: #282938;
+                        opacity: 70%;
+                    }
+
+                    p.Multi {
+                        color: white;
+                    }
+                }
+
+                .list {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    gap: 20px;
+
+                    .list-items {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        gap: 12px;
+
+                        img {
+                            width: 18px;
+                            height: 26px;
+                        }
+
+                        img.off {
+                            filter: grayscale(100%);
+                        }
+
+                        span {
+                            font-family: Poppins;
+                            font-weight: 400;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            color: #282938;
+                        }
+
+                        span.off {
+                            opacity: 70%;
+                        }
+                        span.Multi{
+                            color: white;
+                        }
+                    }
+                }
+
+                button {
+                    display: flex;
+                    align-self: center;
+                    align-items: center;
+                    justify-content: center;
+                    width: 70%;
+                    background-color: #282938;
+                    padding: 16px 0px;
+                    box-sizing: border-box;
+                    font-family: Manrope;
+                    font-weight: 600;
+                    font-size: 18px;
+                    leading-trim: NONE;
+                    line-height: 32px;
+                    letter-spacing: 0%;
+                    color: #F4F6FC;
+                    border-radius: 41px;
+                    cursor: pointer;
+                }
+                button.Multi{
+                    color: #282938;
+                    background-color: #FCD980;
+                }
+            }
+
+            .Multi {
+                background-color: #1C1E53;
+            }
+        }
+    }
+}

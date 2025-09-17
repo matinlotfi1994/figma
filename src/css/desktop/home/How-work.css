@@ -1,0 +1,31 @@
+.How-work-container {
+    padding: 128px 0px 80px 0px;
+
+    .How-work {
+        width: 85%;
+        flex-flow: row nowrap;
+        align-items: start;
+        justify-content: space-between;
+        gap: unset;
+
+        .heading {
+            width: 30%;
+            align-items: start;
+            text-align: unset;
+
+
+        }
+
+        .card {
+            width: 60%;
+            flex-flow: row wrap;
+            justify-content: end;
+            gap: 20px;
+
+            .card-item {
+                padding-bottom: 48px;
+
+            }
+        }
+    }
+}

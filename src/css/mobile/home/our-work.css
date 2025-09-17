@@ -1,0 +1,183 @@
+.our-work-container {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .our-work {
+        width: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 35px;
+
+        .top-ourWork {
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                color: #282938;
+            }
+
+            a {
+                font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                color: #282938;
+                cursor: pointer;
+            }
+        }
+
+        .bottom-ourWork {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 20px;
+
+            .left {
+                width: 100%;
+
+                .image-left {
+                    width: 100%;
+                    height: fit-content;
+                    position: relative;
+                    overflow: hidden;
+
+                    &:hover {
+                        .cover {
+                            left: 0;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .cover {
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        padding: 40px;
+                        align-items: start;
+                        justify-content: end;
+                        gap: 40px;
+                        box-sizing: border-box;
+                        transition: 500ms;
+
+                        h1 {
+                            font-family: Poppins;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: white;
+                        }
+
+                        p {
+                            font-family: Poppins;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: white;
+                            opacity: 80%;
+                        }
+
+                        a {
+                            all: unset;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 28px;
+                            cursor: pointer;
+                            color: #FCD980;
+
+                        }
+                    }
+                }
+            }
+
+            .right {
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+
+                .image-card2 {
+                    width: 55%;
+                    height: fit-content;
+                    position: relative;
+                    overflow: hidden;
+
+                    &:hover {
+                        .cover {
+                            left: 0;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .cover {
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        padding:20px;
+                        align-items: start;
+                        justify-content: end;
+                        gap: 10px;
+                        box-sizing: border-box;
+                        transition: 500ms;
+
+                        h1 {
+                            font-family: Poppins;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: white;
+                        }
+
+                        a {
+                            all: unset;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 28px;
+                            cursor: pointer;
+                            color: #FCD980;
+cursor: pointer;
+                        }
+                    }
+                }
+
+                .image-card3 {
+                    width: 45%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

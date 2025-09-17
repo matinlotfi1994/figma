@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    width: 100%;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../../public/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../../public/fonts/Manrope-VariableFont_wght.ttf);
+}

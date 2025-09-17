@@ -1,0 +1,85 @@
+.features-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f4f6fc;
+    padding: 80px 0px;
+
+    .features {
+        width: 85%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        .features-text {
+            width: 80%;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 12PX;
+            align-items: center;
+
+            H6 {
+                font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: center;
+                color: #282938;
+            }
+
+            H1 {
+                color: #282938;
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+            }
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+
+            .card {
+                background-color: white;
+                padding: 20px;
+                box-sizing: border-box;
+
+                .icon {
+                    width: fit-content;
+                    height: fit-content;
+                    padding-bottom: 15px;
+                    box-sizing: border-box;
+                    img {
+                        width: 34px;
+                        height: 34px;
+                    }
+                }
+
+                .title {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #282938;
+                    padding-bottom: 12px;
+                    box-sizing: border-box;
+                }
+
+                .desc {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #282938;
+                    opacity: 70%;
+                }
+            }
+        }
+    }
+}
